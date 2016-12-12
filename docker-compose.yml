@@ -1,0 +1,15 @@
+version: "2"
+services:
+  php-fpm:
+    build: ./
+    image: bobbydvo/lemp_php-fpm:latest
+    ports:
+      - "9000:9000"
+  web:
+    build: ./docker/nginx
+    image: bobbydvo/lemp_nginx:latest
+    ports:
+      - "80:80"
+    environment:
+      - NGINX_HOST=localhost
+      - NGINX_PORT=80

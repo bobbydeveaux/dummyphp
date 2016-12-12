@@ -7,7 +7,6 @@
     "require": {
         "slim/slim": "^3.0",
         "monolog/monolog": "^1.13",
-        "php-amqplib/php-amqplib": "v2.6.1",
         "pavlakis/slim-cli" : "~1.0",
         "firebase/php-jwt" : "3.0.0",
         "tuupola/slim-jwt-auth": "^2.0"

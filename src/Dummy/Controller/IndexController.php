@@ -42,7 +42,7 @@ final class IndexController
 
 
         $data = [
-            'message' => 'Dummy App Working! This text will feature in 1.0.8 onwards.',
+            'message' => 'Dummy App Working! This text will feature in 1.0.9 onwards.',
         ];
 
         return $response->withStatus(200)

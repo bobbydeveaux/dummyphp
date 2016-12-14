@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export VERSION='1.0.8'
+export VERSION='1.0.9'
 
 git add . 
 git commit -m 'pushing release changes'
@@ -16,3 +16,4 @@ docker push bobbydvo/lemp_php-fpm:$VERSION
 docker push bobbydvo/lemp_nginx:$VERSION
 
  ssh core@51.179.219.14 "docker service update --image bobbydvo/lemp_php-fpm:$VERSION php-fpm"
+ ssh core@51.179.219.14 "docker service update --image bobbydvo/lemp_nginx:$VERSION web"

@@ -1,11 +1,13 @@
 version: "2"
 services:
   php-fpm:
+    tty: true
     build: ./
     image: bobbydvo/lemp_php-fpm:latest
     ports:
       - "9000:9000"
   web:
+    tty: true
     build: ./docker/nginx
     image: bobbydvo/lemp_nginx:latest
     ports:

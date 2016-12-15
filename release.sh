@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export VERSION='1.0.12'
+export VERSION='1.0.13'
 
 set -e
 git add . 

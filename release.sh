@@ -2,9 +2,10 @@
 
 export VERSION='1.0.14'
 
-set -e
 git add . 
 git commit -m 'pushing release changes'
+
+set -e
 git tag -a $VERSION -m 'tagging release'
 git push 
 git push --tags

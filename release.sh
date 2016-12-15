@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export VERSION='1.0.10'
+export VERSION='1.0.11'
 
 git add . 
 git commit -m 'pushing release changes'

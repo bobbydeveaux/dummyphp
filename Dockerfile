@@ -18,6 +18,6 @@ WORKDIR /srv
 
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
-#RUN composer install
+RUN composer install
 
 CMD [ "php-fpm", "-c", "/usr/local/etc/php/php-dev.ini" ]

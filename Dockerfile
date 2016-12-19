@@ -6,4 +6,4 @@ WORKDIR /srv
 
 RUN composer install
 
-CMD [ "php-fpm", "-c", "/usr/local/etc/php/php-dev.ini" ]
+CMD ["/usr/bin/supervisord","-n","-c","/etc/supervisord.conf"]

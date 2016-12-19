@@ -1,5 +1,7 @@
 version: "2"
 services:
   php-fpm:
+    volumes: 
+      - ./:/srv
     environment:
       - APPLICATION_ENV=dev

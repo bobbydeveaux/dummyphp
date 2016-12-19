@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export DUMMY_VERSION='1.0.16`'
-export NGINX_VERSION='latest`'
+export DUMMY_VERSION='1.0.17'
+export NGINX_VERSION='latest'
 
 git add . 
 git commit -m 'pushing release changes'

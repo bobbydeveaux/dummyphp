@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export DUMMY_VERSION='1.0.17'
+export DUMMY_VERSION='1.0.18'
 export NGINX_VERSION='latest'
 
 git add . 

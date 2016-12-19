@@ -42,7 +42,7 @@ final class IndexController
 
 
         $data = [
-            'message' => 'Dummy App Working! This text will feature in 1.0.16 onwards.',
+            'message' => 'Dummy App Working! This text will feature in 1.0.17 onwards.',
             'hostname' => $_SERVER['HOSTNAME']
         ];
 

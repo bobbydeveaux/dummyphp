@@ -14,9 +14,9 @@ git push
 git push --tags
 docker-compose build 
 
-docker tag bobbydvo/dummy_php-fpm:latest  bobbydvo/dummy_php-fpm:$DUMMY_VERSION
-docker push bobbydvo/lemp_php-fpm:$DUMMY_VERSION
-docker push bobbydvo/lemp_php-fpm:latest
+docker tag bobbydvo/dummyapp_php-fpm:latest  bobbydvo/dummyapp_php-fpm:$DUMMY_VERSION
+docker push bobbydvo/dummyapp_php-fpm:$DUMMY_VERSION
+docker push bobbydvo/dummyapp_php-fpm:latest
 
-ssh core@51.179.219.14 "docker service update --image bobbydvo/dummy_php-fpm:$DUMMY_VERSION php-fpm"
+ssh core@51.179.219.14 "docker service update --image bobbydvo/dummyapp_php-fpm:$DUMMY_VERSION php-fpm"
 ssh core@51.179.219.14 "docker service update --image bobbydvo/ost_nginx:$NGINX_VERSION web"

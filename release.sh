@@ -9,7 +9,7 @@ git commit -m 'pushing release changes'
 # This stuff to happen on CI server.
 set -e
 # git clone the repo.
-git tag -a $VERSION -m 'tagging release'
+git tag -a $DUMMY_VERSION -m 'tagging release'
 git push 
 git push --tags
 docker-compose build 

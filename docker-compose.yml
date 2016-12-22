@@ -10,7 +10,7 @@ services:
       - APPLICATION_ENV=prod
   web:
     tty: true
-    image: bobbydvo/ost_nginx:latest
+    image: bobbydvo/ukc_nginx:latest
     ports:
       - "80:80"
     environment:

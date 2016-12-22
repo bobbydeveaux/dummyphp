@@ -1,4 +1,4 @@
-FROM bobbydvo/ost_php-fpm:latest
+FROM bobbydvo/ukc_php-fpm:latest
 
 WORKDIR /srv
 COPY . /srv/

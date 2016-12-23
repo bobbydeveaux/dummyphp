@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Dummy Test Suite" tests="1" assertions="1" failures="0" errors="0" time="0.019016">
+    <testsuite name="ControllerTest" file="/Users/bobby/code/dummyphp/tests/Dummy/ControllerTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.019016">
+      <testcase name="testControllerConstructor" class="ControllerTest" file="/Users/bobby/code/dummyphp/tests/Dummy/ControllerTest.php" line="5" assertions="1" time="0.019016"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

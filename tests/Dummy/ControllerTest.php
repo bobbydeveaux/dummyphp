@@ -8,7 +8,7 @@ class ControllerTest extends \PHPUnit_Framework_TestCase
 
         $msettings = array();
         
-        $obj = new \Dummy\Controller\IndexController($ml, $msettings);
+        $obj = new \Dummy\Controller\IndexBrokenController($ml, $msettings);
         $this->assertInstanceOf('\Dummy\Controller\IndexController', $obj);
     }
 }

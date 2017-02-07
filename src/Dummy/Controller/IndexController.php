@@ -42,7 +42,7 @@ final class IndexController
 
 
         $data = [
-            'message' => 'Dummy App Working! This text will feature for the Christmas Build!',
+            'message' => 'Dummy App Working! This text will feature in Docker 1.13 (CoreOS Alpha!!)',
             'hostname' => $_SERVER['HOSTNAME']
         ];
 

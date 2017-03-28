@@ -44,7 +44,7 @@ final class IndexController
         $data = [
             'message' => 'Dummy App Working! This text will feature in Docker 1.13 (CoreOS Alpha!!)',
             'hostname' => $_SERVER['HOSTNAME'],
-            'updated' => 'Thurs 9th Feb 2017 10:34'
+            'updated' => 'Tues 28th March 2017 9:17'
         ];
 
         return $response->withStatus(200)
